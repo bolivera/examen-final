@@ -1,0 +1,52 @@
+.container-filter {
+    display: grid;
+    grid-template-columns: 1fr .4fr;
+    align-items: center;
+}
+
+.breadcrumb-form {
+    text-align: right;
+}
+
+.filter-key {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .8em;
+}
+
+
+.filter-key .key-word {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    border: 1px solid rgba(0,0,0,.05);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-color: #FF3535;;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 2px 8px 2px 9px;
+    font-size: 0.7em;
+}
+
+.key-word a {
+    margin-right: 12px;
+}
+
+.fa, .fas {
+    font-style: inherit;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-style: inherit;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa-times:before {
+    content: "\f00d";
+}
